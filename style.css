@@ -1,0 +1,114 @@
+body{
+    margin: 10vw;
+    font-size: 22px;
+    color: #FFFFFF;
+    background-image: url(operahouse.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(50, 30, 50, 0.7); /* Black with 50% opacity */
+    background-blend-mode: multiply;
+}
+
+h1{
+    font-size: 40px;
+    display: block;
+}
+
+/*
+p{
+    display: block;
+}
+*/
+
+.details{
+    font-size: 17px;
+}
+
+.heading{
+    margin-bottom: 9vh;
+/*    border: solid green 2px;*/
+}
+
+img{
+    margin: 2vw;
+}
+
+.hidden{
+    display: none;
+}
+
+.stageImg{
+/*    border: solid red 2px;*/
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+/*    padding: 20px;*/
+}
+
+
+.stage{
+    width: 30%;
+    max-width: 38vw;
+    max-height: auto;
+    margin-right: 15vw;
+    filter: sepia(23%);
+/*    margin-left: 10vw;*/
+/*    border: solid blue 2px;*/
+}
+
+
+.sagittalImg{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sagittalFigs{
+    width: 20%;
+    max-width: 25vw;
+    max-height: auto;
+    filter: brightness(90%);
+    margin-left: 10vw;
+}
+
+.modelOutput{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.range5000{
+    width: 30%;
+    max-width: 30vw;
+    filter: contrast(200%);
+}
+
+.sculptures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    margin: auto;*/
+}
+
+#line5{
+    text-align: center;
+    font-size: 25px;
+}
+
+.zephireEtFlore{
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+    width: 40%;
+    max-width: 25vw;
+    margin-top: 0px;
+    filter: sepia(50%) brightness(80%);
+}
+
+#conclusion{
+    text-align: center;
+    margin-top: 23vh;
+}
